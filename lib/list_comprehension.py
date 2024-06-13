@@ -1,7 +1,7 @@
+
 #!/usr/bin/env python3
 
-def return_evens(num_list):
-    pass
+return_evens = lambda num_list: [n for n in num_list if n % 2 == 0]
 
-def make_exclamation(sentence_list):
-    pass
+
+make_exclamation = lambda sentence_list: [s + '!' for s in sentence_list]
